@@ -22,6 +22,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'puma'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'mac_generators'
 
 group :test do 
 	gem 'minitest-rails'
@@ -45,3 +48,6 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+
+gem "warden", "~> 1.2.0"
+gem "bcrypt-ruby"
